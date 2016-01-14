@@ -258,3 +258,11 @@ hr {
 	left:800px;
 	top:450px;
 }
+
+.different {
+	border-style:dotted;
+}
+
+.title {
+	color:black;
+}
