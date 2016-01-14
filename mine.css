@@ -1,0 +1,260 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@font-face {font-family:"calendar note tfb";src:url("calendar_note_tfb.eot?") format("eot"),url("calendar_note_tfb.woff") format("woff"),url("calendar_note_tfb.ttf") format("truetype"),url("calendar_note_tfb.svg#calendarnotetfb") format("svg");font-weight:normal;font-style:normal;}
+
+
+/* General */
+
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+
+/* Typography */
+
+header h1 {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 45px;
+}
+
+.banner h1 {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 100px;
+	color:white;
+	text-align:center;
+	padding-top:25px;
+}
+
+header p {
+	font-family: 'Raleway', serif;
+	font-weight: bold;
+}
+
+article h1 {
+	margin-top: 0;
+	font-family: 'calendar note tfb', serif;
+	color: white;
+	font-size: 50px;
+
+}
+
+article p {
+	margin-top: -2.0em;
+	padding: 1.0em;
+	font-family: 'Raleway', serif;
+}
+
+article h3 {
+	padding: 1.0em;
+	line-height: 0.5em;
+	font-family: 'Raleway', serif;
+
+}
+
+article h2 {
+	padding: 0.5em;
+	line-height: 0.8em;
+	font-family: 'Raleway', serif;
+
+}
+
+article h4 {
+	font-family: 'Raleway', serif;
+	line-height:1.0em;
+	padding:0.4em;
+}
+	
+
+article a:link {
+	color: #57c1ad;
+
+}
+
+article a:visited {
+	color: #57c1ad;
+
+}
+
+
+
+/* Menu */
+
+nav {
+	height: 100px;
+	background-color:white;
+	position:fixed;
+	top:0;
+	right:0;
+}
+nav a{
+	color: grey;
+	text-decoration: none;
+	font-family: 'Raleway', serif;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+nav li {
+    display: block;
+    position: relative;
+    float: right;
+    padding-top: 35px;
+	padding-right:15px;
+	padding-left:15px;
+
+
+}
+.logo {
+	display: block;
+    position:fixed;
+	top:18px;
+	left:5px;
+}
+
+nav ul li {
+	line-height:2.5em;
+	font-size:17px;
+}
+
+nav a:active {
+	color:#57c1ad;
+}
+
+nav a:hover {
+	color:#57c1ad;
+}
+
+
+
+/* Header */
+header a {
+	text-decoration:none;
+}
+
+header a:link {
+	color:white;
+}
+
+header a:visited {
+	color:white;
+}
+
+header a:hover {
+	color:black;
+	background-color:white;
+	border:black;
+}
+
+header a:active {
+	color:white;
+}
+
+header {
+	height: 650px;
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	background-image:url(http://40.media.tumblr.com/bd2f5a7a15c1c862b369c33063ca6127/tumblr_o0yhg0TvkL1uns802o1_1280.jpg);
+} 
+
+.text {
+	position: relative;
+	top: 150px;
+	border: white solid 7px;
+	padding: 5.0em;
+	max-width: 600px;
+	margin: 0 auto;	
+}
+
+.text h1 {
+	text-height:150px;
+}
+
+.banner {
+	background-image:url(http://36.media.tumblr.com/344f892840ff782997964a900137e24a/tumblr_o0yhgeXWfE1uns802o1_500h.jpg);
+	height: 280px;
+	padding-top:100px;
+	
+}
+
+.navback {
+	background-color:white;
+	z-index:100;
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:125px;
+	border-bottom-color:black;
+	border-bottom-style:double;
+	border-bottom-width:thick;
+}
+
+article {
+	text-align:center;
+	background-color:white;
+	padding-left:25px;
+	padding-right:25px;
+	padding-bottom:25px;
+	
+	
+}
+
+article table{
+	background-color:white;
+}
+
+/*Resume*/
+.resume img {
+	margin-top:150px;
+	padding:50px;
+	position:absolute;
+	left:10%;
+}
+
+.intro {
+	padding:30px;
+	margin-top:75px;
+}
+
+/*About Me*/
+.aboutme {
+	padding-top:140px;	
+}
+
+
+hr {
+	height:2px;
+	width:75%;
+	background-color:black;
+	color:black;
+}
+
+.intro {
+	padding-top:150px;
+}
+
+.contact {
+	padding-top:60px;
+	position:relative;
+	left:200px;
+}
+
+.icons {
+	padding-left:45px;
+}
+
+.facts {
+	position:absolute;
+	left:800px;
+	top:450px;
+}
